@@ -9,3 +9,16 @@ console.log(sum);
 //multiply all the number=120
 let mul = number.reduce((total,num)=>total*num,1);
 console.log(mul);
+
+
+//strings
+let dict =['hello','world','javascript','playwrigth'];
+//let fullString =dict.reduce((result,ele)=>result+' '+ ele);
+let fullString1 = dict.reduce((result,ele)=>result + ',' +ele)
+console.log(fullString1);
+
+
+//avaearge of numbers
+let numbers =[88,85,78,92,88,95];
+let averageofNums = numbers.reduce((sum,num)=>(sum+num),0)/numbers.length;
+console.log(averageofNums);
